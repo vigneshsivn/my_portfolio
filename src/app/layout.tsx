@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
-import { ThemeProvider } from "@/context/ThemeContext";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -33,11 +32,9 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col font-sans bg-bg-base text-fg-base selection:bg-primary-blue/30">
-        <ThemeProvider>
-          <CursorGlowProvider>
-            {children}
-          </CursorGlowProvider>
-        </ThemeProvider>
+        <CursorGlowProvider>
+          {children}
+        </CursorGlowProvider>
       </body>
     </html>
   );

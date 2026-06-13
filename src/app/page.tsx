@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { Phone, MessageSquare, ArrowDown, MapPin, Award, Calendar, GraduationCap, Printer } from "lucide-react";
 
 // Components
-import ThemeToggle from "@/components/ThemeToggle";
 import About from "@/components/About";
 import Personal from "@/components/Personal";
 import Education from "@/components/Education";
@@ -127,8 +126,6 @@ export default function Home() {
               ))}
             </ul>
           </nav>
-
-          <ThemeToggle />
         </div>
       </header>
 
