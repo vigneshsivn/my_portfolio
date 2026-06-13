@@ -54,7 +54,7 @@ export default function Career() {
               <div className="bg-fb-bg/30 border border-card-border hover:border-primary-blue/20 rounded-2xl p-5 transition-all duration-300">
                 <span className="text-xs font-bold text-text-secondary tracking-wider uppercase">2021 - 2024</span>
                 <h4 className="font-serif text-lg font-bold text-fb-text mt-1">Software Developer</h4>
-                <span className="text-sm font-semibold text-text-secondary block mt-0.5">Novac Technologies, Chennai</span>
+                <span className="text-sm font-semibold text-text-secondary block mt-0.5">Novac Technology Solutions, Chennai</span>
               </div>
             </motion.div>
           </div>
