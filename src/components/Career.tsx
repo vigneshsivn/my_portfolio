@@ -40,7 +40,7 @@ export default function Career() {
                 <Briefcase className="w-3.5 h-3.5 text-primary-blue" />
               </div>
               <div className="bg-fb-bg/30 border border-card-border hover:border-primary-blue/20 rounded-2xl p-5 transition-all duration-300">
-                <span className="text-xs font-bold text-primary-blue tracking-wider uppercase">2022 - Present</span>
+                <span className="text-xs font-bold text-primary-blue tracking-wider uppercase">2024 - Present</span>
                 <h4 className="font-serif text-lg font-bold text-fb-text mt-1">Senior Software Developer</h4>
                 <span className="text-sm font-semibold text-secondary-blue block mt-0.5">Accenture Services, Chennai</span>
               </div>
@@ -52,9 +52,9 @@ export default function Career() {
                 <Briefcase className="w-3 h-3 text-text-secondary" />
               </div>
               <div className="bg-fb-bg/30 border border-card-border hover:border-primary-blue/20 rounded-2xl p-5 transition-all duration-300">
-                <span className="text-xs font-bold text-text-secondary tracking-wider uppercase">2019 - 2022</span>
+                <span className="text-xs font-bold text-text-secondary tracking-wider uppercase">2021 - 2024</span>
                 <h4 className="font-serif text-lg font-bold text-fb-text mt-1">Software Developer</h4>
-                <span className="text-sm font-semibold text-text-secondary block mt-0.5">Software MNC, Chennai</span>
+                <span className="text-sm font-semibold text-text-secondary block mt-0.5">Novac Technologies, Chennai</span>
               </div>
             </motion.div>
           </div>
