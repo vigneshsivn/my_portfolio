@@ -30,17 +30,7 @@ export default function Education() {
         </div>
       </div>
       
-      {/* Educational values card */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6 pt-4 border-t border-card-border/60 text-xs md:text-sm text-text-secondary">
-        <div className="flex gap-3">
-          <Award className="w-4.5 h-4.5 text-primary-blue mt-0.5 flex-shrink-0" />
-          <span>Strong academic foundation preparing for a high-stability software development career.</span>
-        </div>
-        <div className="flex gap-3">
-          <CheckCircle className="w-4.5 h-4.5 text-primary-blue mt-0.5 flex-shrink-0" />
-          <span>Professional and technical qualifications verified by academic credentials files.</span>
-        </div>
-      </div>
+
     </motion.div>
   );
 }
